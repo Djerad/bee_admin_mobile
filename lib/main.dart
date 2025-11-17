@@ -4,7 +4,6 @@ import 'package:bee_admin/api_service.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  ApiService.setAuthToken('dc0b2b22329bf254b62f631fecada747297a6ba7');   /////// bump logic i know is for testing lolllllllllllllllllllllllllll good luck '')
   runApp(const MyApp());
 }
 
