@@ -38,9 +38,9 @@ class _HiveMapPageState extends State<HiveMapPage> {
     
     try {
       final response = await http.get(
-        Uri.parse('http://192.168.15.125:8000/api/dashboard/stats/'),
+        Uri.parse('http://ip:8000/api/dashboard/stats/'),
         headers: {
-          'Authorization': 'Token dc0b2b22329bf254b62f631fecada747297a6ba7',
+          'Authorization': 'Token $token',
         },
       );
 
