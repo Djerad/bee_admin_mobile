@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = 'http://192.168.15.125:8000/api';
+  static const String baseUrl = 'http://ip:8000/api';
   
   // Store authentication token (you can use SharedPreferences for persistence)
   static String? _authToken;
